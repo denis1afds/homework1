@@ -1,0 +1,9 @@
+{
+  "REPORT_SIZE": 1000,
+  "REPORT_DIR": "./data/reports",
+  "REPORT_TEMPLATE_PATH": "./data/templates/report.html",
+  "REPORT_FILENAME_TEMPLATE": "^report-(?P<file_date>[0-9]{4}\\.[0-9]{2}\\.[0-9]{2})\\.html",
+  "LOG_DIR": "./data/logs",
+  "LOG_FILENAME_TEMPLATE": "^nginx-access-ui\\.log-(?P<file_date>[0-9]{8})\\.(?:log|gz)",
+  "ANALYZER_LOGS_PATH": "./data/analyzer_logs/log_module_${date}.log"
+}
